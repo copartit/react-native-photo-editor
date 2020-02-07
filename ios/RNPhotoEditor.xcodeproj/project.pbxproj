@@ -313,7 +313,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNPhotoEditor;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -331,7 +330,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNPhotoEditor;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
