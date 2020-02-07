@@ -24,7 +24,7 @@ class PhotoEditor extends PureComponent {
       "#000000",
       "#808080",
       "#a9a9a9",
-      "#FFFFFE",
+      "#FFFFFF",
       "#0000ff",
       "#00ff00",
       "#ff0000",
@@ -38,6 +38,7 @@ class PhotoEditor extends PureComponent {
   };
 
   static Edit(props) {
+
     if (props.stickers === undefined)
       props.stickers = PhotoEditor.defaultProps.stickers;
     if (props.hiddenControls === undefined) props.hiddenControls = PhotoEditor.defaultProps.hiddenControls;
