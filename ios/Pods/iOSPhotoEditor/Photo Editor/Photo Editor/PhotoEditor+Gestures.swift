@@ -125,7 +125,7 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
      Scale Effect
      */
     func scaleEffect(view: UIView) {
-        view.superview?.bringSubview(toFront: view)
+//         view.superview?.bringSubview(toFront: view)
         
         if #available(iOS 10.0, *) {
             let generator = UIImpactFeedbackGenerator(style: .heavy)
@@ -137,9 +137,9 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
                         view.transform = view.transform.scaledBy(x: 1.2, y: 1.2)
         },
                        completion: { _ in
-                        UIView.animate(withDuration: 0.2) {
-                            view.transform  = previouTransform
-                        }
+//                         UIView.animate(withDuration: 0.2) {
+//                             view.transform  = previouTransform
+//                         }
         })
     }
     
