@@ -68,9 +68,10 @@ extension PhotoEditorViewController : UIGestureRecognizerDelegate  {
      */
     @objc func tapGesture(_ recognizer: UITapGestureRecognizer) {
         if let view = recognizer.view {
-            
+              
             view.transform = CGAffineTransform(scaleX: 0.75, y: 0.75)
             view.center = super.view.center
+            cumulativeScale = 1
            
         }
     }
