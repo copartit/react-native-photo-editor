@@ -142,6 +142,7 @@ public final class PhotoEditorViewController: UIViewController {
         imageView.image = image
         let size = image.suitableSize(widthLimit: UIScreen.main.bounds.width)
         imageViewHeightConstraint.constant = (size?.height)!
+
     }
     
     func hideToolbar(hide: Bool) {
